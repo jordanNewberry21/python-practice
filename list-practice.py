@@ -17,9 +17,9 @@
 
 # print(spam[-5])
 
-spam = ['cat', 'bat', 'rat', 'elephant']
+# spam = ['cat', 'bat', 'rat', 'elephant']
 
-print(spam[:2])
+# print(spam[:2])
 
-del spam[2]
+# del spam[2]
 
