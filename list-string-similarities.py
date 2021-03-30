@@ -28,4 +28,17 @@ print(cheese)
 
 print(spam)
 
+# MUTABLE OBJECTS SUCH AS LISTS ARE GIVEN REFERENCES, DO NOT FORGET THIS
+
+
+# line continuation concepts
+spam = ['apples',
+        'oranges',
+        'bananas',
+        'cats']
+
+# the backslash "\" tells python you need to move to a new line
+# and it will ignore the indentation
+print('Four score and seven ' + \
+    'years ago')
 
