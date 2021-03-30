@@ -20,3 +20,4 @@ a, b = b, a
 spam = 42
 spam = spam + 1
 spam += 1
+print(spam)
