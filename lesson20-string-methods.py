@@ -26,3 +26,15 @@ print(spam.islower()) # returns false because of the capital H
 spam = 'HELLO WORLD!'
 print(spam.isupper()) # returns true because all characters in the string are uppercase
 
+spam = ''
+print(spam.isupper())
+print(spam.islower())
+# both methods here return false because there needs to be one character
+# of the method type to return true
+
+# isalpha() -- checks if string is letters only
+# isalnum() -- checks if string is letters and numbers only
+# isdecimal() -- checks if string is numbers only
+# isspace() -- checks if string is whitespace only
+# istitle() -- titlecase only
+
