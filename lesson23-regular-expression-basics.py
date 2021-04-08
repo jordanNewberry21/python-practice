@@ -29,4 +29,18 @@ def isPhoneNumber(text):
             return False # missing the last 4 digits
     return True
 
-print(isPhoneNumber('415-555-1234'))    
+print(isPhoneNumber('415-555-1234'))   
+
+message = 'call me at 415-555-1011 tomorrow, or at 415-555-9999 for my office line.'
+foundNumber = False
+# the chunk part of this for loop is slicing through the larger string in 12 character
+# portions to look for a phone number
+# writing it with [i:i+12] takes a 12 character slice of the string,
+# going up by an index of one each time, eventually catching the phone number slices
+for i in range(len(message)):
+    chunk = message[i:i+12]
+    if isPhoneNumber(chunk):
+        print('Phone number found: %s' % chunk)
+        foundNumber = True
+if not foundNumber:
+    print('Could not find any phone numbers.')
