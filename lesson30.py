@@ -28,17 +28,17 @@ os.path.isabs(r'../../spam.png') # returns false
 
 os.path.relpath(r'../../spam.png', r'c:\folder1')
 
-os.path.dirname() # pass in file to get directory name
+os.path.dirname('/Users/jordannewberry/') # pass in file to get directory name
 
-os.path.basename() # pass in file path to pull out the base file name or folder
+os.path.basename('/Users/jordannewberry/') # pass in file path to pull out the base file name or folder
 
-os.path.exists() # pass in file path, will return true if file exists, or false if it doesn't exist
+os.path.exists('/Users/jordannewberry/') # pass in file path, will return true if file exists, or false if it doesn't exist
 
-os.path.isfile() # pass in file path, will return true if the path is a file, false if anything else
+os.path.isfile('/Users/jordannewberry/') # pass in file path, will return true if the path is a file, false if anything else
 
-os.path.isdir() # pass in file path, will return true if path is a directory, false if file
+os.path.isdir('/Users/jordannewberry/') # pass in file path, will return true if path is a directory, false if file
 
-os.path.getsize() # pass in file path, will return the size of the file / dir in bytes
+os.path.getsize('/Users/jordannewberry/') # pass in file path, will return the size of the file / dir in bytes
 
-os.listdir() # pass in directory path, will return a list of all the file names inside the directory
+os.listdir('/Users/jordannewberry/') # pass in directory path, will return a list of all the file names inside the directory
 
