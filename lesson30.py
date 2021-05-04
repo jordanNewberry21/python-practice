@@ -20,13 +20,11 @@ print(os.getcwd())
 
 os.path.abspath('spam.png')
 
-os.path.abspath(r'../../spam.png')
+os.path.abspath(r'../../spam.png') # returns the absolute path of the file specified
 
-os.path.isabs(r'../../spam.png') # returns false
+os.path.isabs(r'../../spam.png') # based on path specified, returns true if path is absolute, false if otherwise
 
-os.path.isabs(r'../../spam.png') # returns false
-
-os.path.relpath(r'../../spam.png', r'c:\folder1')
+os.path.relpath(r'../../spam.png', r'c:\folder1') # returns the relative path between the two locations
 
 os.path.dirname('/Users/jordannewberry/') # pass in file to get directory name
 
