@@ -21,3 +21,8 @@ for chunk in res.iter_content(100000):
 
 playFile.close()
 
+# the requests module is a third-party module for downloading web pages and files.
+# requests.get() returns a response object
+# the raise_for_status() response method will raise an exception if the download failed
+# you can save a downloaded file to your hard drive with calls to the iter_content() method.
+
