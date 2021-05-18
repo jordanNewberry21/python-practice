@@ -1,0 +1,57 @@
+1621360365050	geckodriver	INFO	Listening on 127.0.0.1:52875
+1621360365758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c8/64c2d5xj6jj0hkktkl3nnm740000gn/T/rust_mozprofile9ChLQI"
+1621360367172	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621360371831	Marionette	INFO	Listening on port 52887
+1621360371864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621360634464	geckodriver	INFO	Listening on 127.0.0.1:53005
+1621360634492	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c8/64c2d5xj6jj0hkktkl3nnm740000gn/T/rust_mozprofileXRBT5C"
+1621360636213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621360643319	Marionette	INFO	Listening on port 53014
+1621360643403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+1621360757249	geckodriver	INFO	Listening on 127.0.0.1:53157
+1621360758282	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c8/64c2d5xj6jj0hkktkl3nnm740000gn/T/rust_mozprofileUapad9"
+1621360760019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621360768130	Marionette	INFO	Listening on port 53169
+1621360768277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621360783992	geckodriver	INFO	Listening on 127.0.0.1:53311
+1621360784008	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c8/64c2d5xj6jj0hkktkl3nnm740000gn/T/rust_mozprofileWVWtWg"
+1621360785125	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621360792422	Marionette	INFO	Listening on port 53320
+1621360792584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621360863674	Marionette	INFO	Stopped listening on port 53014
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621360865191	Marionette	INFO	Stopped listening on port 52887
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621360869512	Marionette	INFO	Stopped listening on port 53169
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621360871808	Marionette	INFO	Stopped listening on port 53320
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621361215537	geckodriver	INFO	Listening on 127.0.0.1:53492
+1621361216581	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c8/64c2d5xj6jj0hkktkl3nnm740000gn/T/rust_mozprofilen7pry4"
+1621361219600	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621361227519	Marionette	INFO	Listening on port 53504
+1621361227676	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+1621361343135	geckodriver	INFO	Listening on 127.0.0.1:53772
+1621361344148	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c8/64c2d5xj6jj0hkktkl3nnm740000gn/T/rust_mozprofilekS4MLP"
+1621361345515	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621361350845	Marionette	INFO	Listening on port 53783
+1621361350953	Marionette	WARN	TLS certificate errors will be ignored for this session
