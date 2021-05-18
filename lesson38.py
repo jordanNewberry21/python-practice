@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # The WebBrowser Module
 
 import webbrowser, sys, pyperclip
