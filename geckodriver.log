@@ -55,3 +55,11 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1621361350845	Marionette	INFO	Listening on port 53783
 1621361350953	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621366614233	Marionette	INFO	Stopped listening on port 53783
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621366615708	Marionette	INFO	Stopped listening on port 53504
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
